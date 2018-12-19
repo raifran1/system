@@ -1,0 +1,16 @@
+dentro do diretório da app:
+criar serializer.py
+configurar..(importar)
+(
+GET-REQUISIÇÃO DE RECURSO
+POST-CRIAR UM NOVO RECURSO
+PUT-ATUALIZAR ESTADO DE UM RECURSO
+PATCH-ATUALIZAR PARTE DE UM RECURSO
+DELETE-REMOVER UM RECURSO EXISTENTE
+)
+abrir view e configurar
+
+
+dentro do diretório do projeto
+abrir url e configurar
+abrir settings (adicionar nos INSTALLEDS APPS = 'rest_framework',)
