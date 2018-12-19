@@ -1,0 +1,8 @@
+from django.shortcuts import render
+from rest_framework import viewsets
+from .models import *nome_da_tabela*
+from .serializers import *nome_da_tabela*Serializer
+
+class *nome_da_tabela*ViewSet(viewsets.ModelViewSet):
+    queryset = *nome_da_tabela*.objects.all()
+    serializer_class = *nome_da_tabela*Serializer
