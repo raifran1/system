@@ -1,0 +1,7 @@
+from rest_framework import serializers
+from .models import *Nome_da_tabela*
+
+class *Nome_da_tabela*Serializer(serializers.ModelSerializer):
+    class Meta:
+        model = *Nome_da_tabela*
+        fields = ('campos_da_tabela','campos_da_tabela)
