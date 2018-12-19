@@ -1,0 +1,12 @@
+from *diretorio_projeto*.*nome_da_tabela(app)*.views import *nome_da_tabela(app)*ViewSet
+from *diretorio_projeto*.*nome_da_tabela(app)*.views import *nome_da_tabela(app)*ViewSet
+from rest_framework import routers
+
+router = routers.DefaultRouter()
+router.register(r'*nome_da_tabela(app)*', *nome_da_tabela(app)*ViewSet)
+router.register(r'*nome_da_tabela(app)*', *nome_da_tabela(app)*ViewSet)
+
+urlpatterns = [
+    path('', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls'))
+]
